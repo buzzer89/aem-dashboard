@@ -1,0 +1,17 @@
+{
+  "projectType": "nextjs-react-test-web-app",
+  "preferredLanguage": "typescript",
+  "preferredPackageManager": "npm",
+  "preferredStyling": "tailwind",
+  "testing": {
+    "unit": true,
+    "integration": true,
+    "frameworks": ["jest", "react-testing-library"]
+  },
+  "defaults": {
+    "smallSafeChanges": true,
+    "preferExistingPatterns": true,
+    "explainBeforeLargeChanges": true,
+    "updateTestsWhenBehaviorChanges": true
+  }
+}
